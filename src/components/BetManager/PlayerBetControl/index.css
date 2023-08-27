@@ -1,0 +1,28 @@
+.player-bet-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #f2f4f8;
+    padding: 15px
+}
+
+.player-bet-control:last-child {
+    border-bottom: none;
+}
+
+.player-bet-control img {
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+}
+
+.player-info-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.increase-bet-btn {
+    background-color: #2d7bfb;
+    color: #fff;
+}

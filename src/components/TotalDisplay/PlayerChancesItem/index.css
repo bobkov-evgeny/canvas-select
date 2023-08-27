@@ -1,0 +1,61 @@
+.player-chances {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: all 200ms ease;
+    height: fit-content;
+}
+
+.player-chances .player-avatar {
+    height: 120px;
+    width: 120px;
+    border-radius: 12px;
+}
+
+.player-chances .winner-crown {
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+
+.winner {
+    scale: 1.2;
+}
+
+.player-name {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background-color: #f69a0cd9;
+    border-radius: 12px 12px 0 0;
+    color: #fff;
+    font-size: 14px;
+    padding: 2px 5px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    text-align: center;
+}
+
+.chances-value {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    border-radius: 6px;
+    background-color: #fb8c42;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 2px 0;
+    text-shadow: 0 0 16px rgba(0,0,0,.85);
+    color: #fff;
+}

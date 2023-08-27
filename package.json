@@ -1,5 +1,5 @@
 {
-  "name": "casino",
+  "name": "fancy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,9 @@
     "@types/node": "^16.18.46",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
+    "mobx": "^6.10.0",
+    "mobx-react-lite": "^4.0.4",
+    "mobx-state-tree": "^5.1.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",

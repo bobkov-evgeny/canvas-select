@@ -1,81 +1,27 @@
-.casino-app {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  background-color: #f6f7fb;
+}
+
+.game-field {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh; /* Высота на весь экран */
-  background-color: #f0f0f0;
+  gap: 15px;
 }
 
-button {
-  margin-top: 20px;
-  font-size: 16px;
-  padding: 10px 20px;
-}
-
-button:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
-}
-
-.winner-text {
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 20px;
-  color: blue;
-}
-
-.winner-name {
-  color: #007bff;
-}
-
-.winner-select-slider {
-  position: relative;
-  width: 1400px;
-  height: 96px;
-  background: white;
-  border-radius: 15px;
-  padding: 10px 0;
-}
-
-.canvas-mask {
+.main {
   display: flex;
-  overflow: hidden;
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
-
-.pointer {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%); /* Центрируем указатель горизонтально */
-  width: 2px; /* Ширина указателя */
-  height: 100%; /* Высота указателя */
-}
-
-.pointer-indicator {
-  position: absolute;
-  top: -8px;
-  left: 50%;
-  transform: translateX(-50%); /* Центрируем указатель горизонтально */
-  height: 24px;
-  width: 209px;
-  background-image: url("cursor.png");
-}
-
-.pointer-indicator::after {
-  content: "";
-  position: absolute;
-  left: 1px;
-  right: 0;
-  bottom: -80px;
-  width: 3px;
-  height: 88px;
-  margin: auto;
-  display: block;
-  z-index: 1;
-  background: linear-gradient(45deg,#e09823,rgba(247,226,70,.36));
+  flex-direction: column;
+  height: 530px;
+  gap: 15px;
 }
 
